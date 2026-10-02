@@ -1,0 +1,18 @@
+company,person,role,profile_url,industry,company_size,geography,fit_evidence,trigger,score_firmographic,score_role,score_need,score_timing,score_reachability,score_total,recommended_angle,competitive_angle,next_action,status,source_label
+,,,,,,,,,25,20,20,20,15,100,,,,"ready|research|nurture",
+
+
+
+
+
+Column rules
+
+score_* — integer within cap shown in header row.
+
+score_total — sum, must equal 100-point model.
+
+source_label — required on every row (URL or system name).
+
+status — one of ready, research, nurture.
+
+No fabricated rows. Blank cells must be blank, not guessed.
